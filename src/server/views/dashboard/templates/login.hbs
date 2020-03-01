@@ -1,0 +1,14 @@
+<h2>Arena</h2>
+<h3>Login</h3>
+
+<div class="no-padding">
+    <form action="{{ loginUrl }}" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+{{#contentFor 'sidebar'}}
+    <li class="active"><a href="#">Login</a></li>
+{{/contentFor}}

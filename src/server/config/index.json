@@ -7,5 +7,16 @@
       "hostId": "AWS Server 2"
     }
   ],
-  "queues": []
+  "queues": [],
+  "authDb": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "user": "user",
+    "password": "password",
+    "dbName": "dbName"
+  },
+  "jwt": {
+    "secret": "thisIsTheJWTSecret"
+  },
+  "sessionSecret": "thisIsTheSessionSecret"
 }
